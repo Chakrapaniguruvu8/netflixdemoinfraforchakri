@@ -9,7 +9,7 @@ resource "aws_instance" "one" {
   key_name      = "chkpair"
 
   vpc_security_group_ids = [
-    "sg-070eb542e17ea82af"
+    "sg-0c6f50309d1afeed2"
   ]
 
   tags = {
