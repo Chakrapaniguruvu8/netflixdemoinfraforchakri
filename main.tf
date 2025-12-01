@@ -4,12 +4,12 @@ provider "aws" {
 
 resource "aws_instance" "one" {
   count         = 4
-  ami           = "ami-0360c520857e3138f"
+  ami           = "ami-0ecb62995f68bb549"
   instance_type = "t3.medium"
-  key_name      = "chkey"
+  key_name      = "ch1"
 
   vpc_security_group_ids = [
-    "sg-0c6f50309d1afeed2"
+    "sg-0a31e6e15e2d29f54"
   ]
 
   tags = {
